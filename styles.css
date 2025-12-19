@@ -1,1 +1,20 @@
 /*  your css code here. If applicable */
+.card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust as needed */
+    gap: 20px; /* Space between cards */
+}
+
+.card {
+    border: 10px solid #ccc;
+    background-color: #fafafa;
+    padding: 20px; /* Add some padding */
+}
+
+.card h1 {
+    font-size: 1.5em;
+}
+
+.card p {
+    font-size: 0.75em;
+}
